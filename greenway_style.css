@@ -1,0 +1,245 @@
+@font-face {
+  font-family: GT-Walsheim-Pro-Regular-Oblique;
+  src: url(Fonts/GT-Walsheim-Pro-Regular-Oblique.otf);
+  font-weight: 200;
+}
+
+@font-face {
+  font-family: GT-Walsheim-Pro-Regular;
+  src: url(Fonts/GT-Walsheim-Pro-Regular.otf);
+  font-weight: 200;
+}
+
+a{
+  text-decoration:none;
+  color: inherit;
+}
+
+*{
+  margin: 0;
+  box-sizing: border-box;
+  white-space: normal;
+  font-family: GT-Walsheim-Pro-Regular;
+
+  font-size: 12pt;
+}
+
+
+body{
+  width: 100vw;
+  height: 100vh;
+  line-height: 16pt;
+}
+
+.first{
+  height: 100vh;
+  background-image: linear-gradient(white, white, white, #056800);
+  color: #056800;
+}
+
+.menu{
+  position: absolute;
+  top: 25px;
+  width: 100vw;
+  text-align: center;
+
+}
+
+.menu > img{
+  width: 25px;
+}
+
+#menu2 > img{
+  transform: translate(0, -20%);
+  width: 18px;
+}
+
+.hide{
+  display: none;
+}
+
+.hometitle {
+  position: absolute;
+  top: 47%;
+  width: 100vw;
+  text-align: center;
+  font-size: 19vw;
+}
+
+.subtitle{
+  font-size: 5vw;
+  line-height: 18vw;
+}
+
+.arrow-down{
+  position: absolute;
+  bottom: 15px;
+  width: 100vw;
+  text-align: center;
+}
+
+.arrow-up{
+  position: relative;
+  bottom: 50px;
+  width: 100vw;
+  text-align: center;
+}
+
+.arrow-down > img{
+  width: 20px;
+}
+
+.arrow-up > img{
+  width: 20px;
+}
+
+.second{
+  width: 100vw;
+  line-height: 0;
+}
+
+.second > img{
+  width: 100vw;
+}
+
+.green{
+  color: #056800;
+}
+
+.white{
+  color: white;
+  background-image: linear-gradient(#056800, #056800, #056800, white);
+}
+
+.padding-text{
+  padding-top: 30px;
+  padding-bottom: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+
+}
+
+.title{
+  text-align: center;
+  font-size: 18pt;
+  width: 100%;
+  padding-bottom: 30px;
+}
+
+.padding-more{
+  padding-top: 100px;
+}
+
+.contatti{
+  text-align: center;
+  padding-bottom: 200px;
+}
+
+.voci{
+  display: none;
+}
+
+@media only screen and (min-width: 500px) {
+  .hometitle {
+    position: absolute;
+    top: 47%;
+    width: 100vw;
+
+    font-size: 100px;
+  }
+
+  .subtitle{
+    font-size: 20px;
+    line-height: 130px;
+  }
+
+  .title{
+    text-align: left;
+    width: 20%;
+    display: inline-block;
+    vertical-align: top;
+    font-size: 10pt;
+  }
+
+  .text{
+    width: 80%;
+    display: inline-block;
+  }
+
+  .indent{
+    padding-left: 0%;
+  }
+
+
+  .contatti{
+    text-align: left;
+  }
+
+  .padding-more{
+    padding: 0;
+  }
+
+
+    .cont{
+      padding-top: 100px;
+    }
+
+    .voci{
+      display: block;
+      padding-top: 20px;
+      width: 100vw;
+      text-align: right;
+    }
+
+    .mini-title{
+      float: left;
+      padding-left: 30px;
+    }
+
+    .voci > a{
+      padding-right: 30px;
+    }
+
+    #menu1{
+      display: none;
+    }
+
+  .double{
+    display: none;
+  }
+
+
+
+}
+
+
+
+@media only screen and (min-width: 1080px) {
+  .indent{
+    padding-left: 20%;
+  }
+
+  *{
+    font-size: 16pt;
+    line-height: 18pt;
+  }
+
+  .double{
+    display: block;
+    padding-bottom: 30px;
+  }
+
+  .arrow-up{
+    display: none;
+  }
+
+  .padding-text{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-left: 50px;
+    padding-right: 50px;
+
+  }
+
+
+}
